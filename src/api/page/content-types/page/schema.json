@@ -17,6 +17,9 @@
     },
     "href": {
       "type": "string"
+    },
+    "external": {
+      "type": "boolean"
     }
   }
 }
