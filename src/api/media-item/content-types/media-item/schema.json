@@ -4,23 +4,28 @@
   "info": {
     "singularName": "media-item",
     "pluralName": "media-items",
-    "displayName": "Media Item"
+    "displayName": "Media Item",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Image": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "Title": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
       "type": "string"
     }
   }
