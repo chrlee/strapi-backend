@@ -25,8 +25,13 @@
     "title": {
       "type": "string"
     },
-    "href": {
-      "type": "string"
+    "description": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.link"
     }
   }
 }
